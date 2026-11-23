@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Build & test
 
-The solution lives under `src/` and targets **.NET 10**. All commands are run from the repo root.
+The solution lives under `src/` and targets **.NET 11**. Install the SDK selected by the root `global.json` (11.0.100 or a later patch in the same feature band). All commands are run from the repo root.
 
 ```bash
 dotnet build -c Release ./src
